@@ -1,5 +1,5 @@
 class Book
-attr_accessor :title, :author, :page_count, :genrew
+attr_accessor :title :author, :page_count, :genrew
   def initialize(title, author, page_count, genre)
     @title = title
     @author = author
